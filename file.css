@@ -1,0 +1,545 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: segeo ui light ;
+}
+.firstdiv{
+    height: 950px;
+    background-image:url(business.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.dark{
+    position: absolute;
+    left: 0; top: 0;
+    width: 100%;
+    height:100%; ;
+    background-color: rgba(0,0,0,0.7);
+    
+}
+/*beggining of navbar*/
+
+.nav{
+    text-align: center;
+    background-color: rgba(0,0,0,0);
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.img1{
+    width: 140px;
+    padding: 30px 0px 10px 0px;
+    margin-right: 300px;
+    
+}
+.link{
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px 10px 0px;
+    
+}
+.nav ul {
+    float: right;
+    list-style-type: none;
+    color: white;
+    margin: 30px 140px ;
+    
+}
+li{
+    float:left;
+}
+.button1{
+    text-decoration: none;
+    color: dimgrey;
+    font-weight: bold;
+    
+}
+.nav button{
+    background-color: white;
+    width: 100px;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 3px;
+   
+}
+.nav button:hover{
+    color: white;
+    background-color: #5cd65c;
+    cursor: pointer;
+}
+    
+/*end of navbar*/
+  
+.centr{
+    height:300px;
+    width: 70%;
+    text-align: center;
+    margin: 300px auto ;
+    color: beige;
+}
+.centr p{
+    font-size:22px;
+    padding-bottom: 20px
+}
+.centr h6{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.centr button{
+    background-color: #5cd65c;
+    border:none;
+    width: 140px;
+    height: 50px;
+    color: white;
+    margin-top: 45px;
+    border-radius:4px;
+    font-weight: bold;
+}
+.centr button:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+/*end of first part*/
+
+.secdiv{
+    height: 350px;
+    width:100%;
+    
+}
+.one{
+    padding: 100px 0px 0 200px;
+    float:left;
+}
+.one img{
+     width:40px;
+    padding-right: 10px;
+    
+}
+.up{
+    font-size: 20px;
+}
+.down{
+     font-size: 20px;
+    padding-left: 47px;
+    color:#aaa
+}
+
+.two{
+    padding: 100px 0px 0 60px;
+    float:left;
+}
+.two img{
+     width:40px;
+    padding-right: 10px;
+    
+}
+.up2{
+    font-size: 20px;
+}
+.down2{
+     font-size: 20px;
+    padding-left: 47px;
+    color:#aaa
+}
+.three{
+    padding: 100px 0px 0 60px;
+    float: left;
+}
+.three img{
+     width:40px;
+    padding-right: 10px;
+    
+}
+.up3{
+    font-size: 20px;
+}
+.down3{
+     font-size: 20px;
+    padding-left: 47px;
+    color:#aaa
+}
+/*end of second div*/
+.thirdiv{
+    height: 850px;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+.middle1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 100px
+}
+.middle2{
+    text-align: center;
+    color: #aaa;
+    font-size: 22px
+}
+.thone{
+   
+    display: inline-block;
+    margin-left: 80px;
+    margin-right: 20px;
+    background-color:white;
+    height:500px;
+}
+
+.thirdiv img{
+    width: 400px;
+    height: 300px;
+}
+.thtwo{
+    display: inline-block;
+    margin-right: 20px;
+    background-color:white;
+    height:500px;
+}
+.ththree{
+    display: inline-block;
+    background-color:white;
+    height:500px;
+}
+.total{
+    width: 90%;
+    margin: auto;
+    padding-top: 60px;
+}
+.thup1{
+    font-size: 21px;
+    padding-left: 30px;
+}
+.thdown1{
+    font-size: 18px;
+    padding-left: 30px;
+    color: #aaa;
+}
+.thup2{
+    font-size: 21px;
+    padding-left: 30px;
+}
+.thdown2{
+    font-size: 18px;
+    padding-left: 30px;
+    color: #aaa;
+}
+.thup3{
+    font-size: 21px;
+    padding-left: 30px;
+}
+.thdown3{
+    font-size: 18px;
+    padding-left: 30px;
+    color: #aaa;
+}
+.thirdiv a{
+    text-decoration: none;
+    color: black;
+    padding-left: 30px;
+}
+
+/*the end of third div */
+.leftdiv{
+    width: 40%;
+    float: left;
+    padding-top: 250px;
+    padding-left: 150px;
+    margin-left: 50px;
+    padding-bottom: 100px;
+
+}
+.rightdiv img{
+    width: 600px;
+    height: 650px;
+    padding-top: 100px;
+    
+}
+.rightdiv{
+    width: 40%;
+    float: right;
+    padding-right: 80px;
+    padding-bottom: 100px;
+}
+.fmiddle1{
+    font-size: 40px;
+}
+.fmiddle2{
+    color: #aaa;
+    font-size:18px;
+}
+.leftdiv img{
+    float: left;
+    width: 20px;
+    padding-right: 10px;
+}
+.leftdiv button{
+    color:white;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top:20px;
+    padding: 15px 20px;
+    border:none;
+    border-radius:4px;
+    background-color:#5cd65c;
+    
+}
+.leftdiv button:hover{
+    background-color: darkslategrey;
+    cursor: pointer;
+}
+.clear{
+    clear: both;
+}
+/*the end of fourth div*/
+.fifthdiv{
+    text-align: center;
+    padding: 50px 0px;
+    background-color: #f8f8f8;
+}
+.imgmsg{
+    width: 60px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.fifdiv1{
+    display: inline-block;
+    font-size:20px; 
+    margin-right:20px;
+}
+.fifdiv2{
+    display: inline-block;
+    font-size:20px; 
+    margin-right:20px;
+}
+.fifdiv3{
+    display: inline-block;
+    font-size:20px; 
+}
+.bold{
+    font-weight: bold;
+}
+.arow{
+    width: 100px;
+    padding-top: 50px;
+}
+/*the end of div five*/
+
+.div6{
+    font-size: 20px;
+    height: 200;
+    padding-top: 100px;
+    padding-left: 200px;
+}
+.nums{
+    font-size: 60;
+    color: black;
+}
+div6 p{
+    color: gray
+}
+.div6 img{
+    width: 40px;
+}
+.like{
+    float: left;
+    text-align: center;
+    width: 20%;
+    color: grey;
+    margin-right: 30;
+}
+
+.home{
+    float: left;
+    text-align: center;
+    width: 20%;
+    color: grey;
+     margin-right: 30;
+}
+.lamp img{
+    width: 30px;
+}
+.lamp{
+    float: left;
+    text-align: center;
+    width: 20%;
+    color: grey;
+     margin-right: 30;
+}
+
+.msg{
+    float: left;
+    text-align: center;
+    width: 20%;
+    color: grey;
+}
+/*end of div six*/
+.buildings{
+    height: 500px;
+    text-align: center;
+    color: white;
+    background-image: url(lookup.jpg);
+    background-position: center center;
+    position: relative;
+
+}
+.dark2{
+    position: absolute;
+    width: 100%;
+    height:80%; ;
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 100px;
+}
+.center1{
+    font-size: 40px;
+}
+.center2{
+    font-size: 23px;
+}
+.buildings button{
+    padding: 18px 30px;
+    background-color: #5cd65c;
+    font-weight: bold;
+    border:none;
+    border-radius:5px;
+    color: white;
+    margin-top: 85px;
+}
+.buildings button:hover{
+    color: dimgray;
+    background-color: white;
+}
+/*end of div seven*/
+.service{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 18px;
+    color: dimgray;
+}
+.servicecenter{
+    font-size: 40px;
+    color: black;
+}
+.servicecenter2{
+    font-size: 25px;
+}
+.service1{
+    padding: 50px 0px;
+    text-align: left;
+    margin-left: 200px;
+}
+.service11{
+    display:inline-block;
+    margin-right: 55px;
+}
+.service12{
+    display:inline-block;
+    margin-right: 55px;
+}
+.service13{
+    display:inline-block;
+}
+.clear{
+    clear: both;
+}
+.service2{
+    padding: 50px 0px;
+    text-align: left;
+    margin-left: 200px;
+}
+.service21{
+    display:inline-block;
+    margin-right: 55px;
+}
+.service22{
+    display:inline-block;
+    margin-right: 55px;
+}
+.service23{
+    display:inline-block;
+}
+.clear{
+    clear: both;
+}
+.upword{
+    font-size: 22px;
+    color: black;
+}
+/*end of div six*/
+.logos{
+
+    background-color: #f5f5f0;
+    padding: 70px 0px;
+    text-align: center;
+}
+.logos img{
+    width: 180px;
+    margin: 0px 30;
+}
+/*end of logos div*/
+.greendiv{
+    padding: 80px 0px;
+    background-color:#00b33c;
+}
+.green1{
+    color: white;
+    font-size: 40px;
+    padding-bottom: 20px;
+    float: left;
+    margin-left: 200px;
+}
+.clear{
+    clear: both;
+}
+.green2{
+    color: #d9d9d9;
+    font-size: 22px;
+    float: left;
+     margin-left: 200px;
+}
+.greendiv button{
+    color: #595959;
+    background-color: white;
+    padding: 20px 30px;
+    border:none;
+    border-radius: 5px;
+    float: right;
+    margin-right: 250px; 
+    font-weight: bold;
+}
+.greendiv button:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+/*end of green div*/
+.finaldiv{
+    padding: 50px 0px 60px 60px;
+    background-color: #333333;
+    
+}
+.final1{
+    display: inline-block;
+    margin-left:100px;
+}
+.final2{
+    display: inline-block;
+    margin-left:100px
+}
+.final3{
+    display: inline-block;
+    margin-left:100px
+}
+.final4{
+    display: inline-block;
+    margin-left:100px
+}
+.finaldiv li{
+    list-style-type: none;
+}
+.finaldiv p{
+    font-size: 20px;
+    color: white;
+}
+.finaldiv li,i{
+    color: #999999;
+}
